@@ -1,0 +1,74 @@
+/*global styling*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+body {
+    display: block;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+/*navbar styling*/
+.navbar {
+    background:#8d604bbc;
+    position: fixed;
+  }
+  
+.nav-item {
+    text-transform: uppercase;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+  }
+.nav-link {
+    color: floralwhite;
+}
+.nav-link:hover{
+color: rgb(20, 7, 32);
+}
+
+.nav-link:active{
+color: rgb(45, 44, 46);
+}
+
+
+/*About*/
+
+section.about {
+    background-image: url(img/IMG_20190617_071847.jpg);
+    background-size: cover;
+    background-position-y: center;
+    height: 100vh;
+    margin-top: 55px;
+}
+
+.overlay {
+    background: rgba(197, 191, 191, 0.6);
+    height: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+section.about h2 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+section.container {
+    height: 100%;
+
+}
+/*footer styling*/
+
+footer {
+    background:#110f18cc;
+    color: rgb(219, 212, 212);
+    position: relative; 
+    width:100%;
+    bottom: 0;
+}
+
